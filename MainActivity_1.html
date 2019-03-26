@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:text="쪽지보내기"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_marginLeft="80dp" />
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/notesender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="보내는 사람" />
+    <EditText
+        android:id="@+id/noterecipient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="받는 사람" />
+    <EditText
+        android:id="@+id/notetitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="쪽지 제목" />
+
+
+    <EditText
+        android:id="@+id/noteText3"
+        android:layout_width="match_parent"
+        android:layout_height="348dp"
+        android:hint="쪽지를 작성해주세요!"
+        android:inputType="textMultiLine" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/notebutton10"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_login"
+            android:text="전송"
+            android:textColor="@color/colorWhite"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/notebutton20"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_login"
+            android:text="다시 쓰기"
+            android:textColor="@color/colorWhite"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/notebutton30"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_login"
+            android:text="취소"
+            android:textColor="@color/colorWhite"
+            android:textSize="16dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
